@@ -1,0 +1,21 @@
+// Reset
+@import 'reset.scss';
+
+// Fonts and icons
+@import 'fa.css';
+@import 'icomoon.css';
+@import 'fonts.scss';
+
+//
+@import 'breakpoints.scss';
+@import 'colors.scss';
+@import 'forms.scss';
+@import 'buttons.scss';
+
+//
+@import 'global.scss';
+@import 'mixins.scss';
+
+// Page styles
+@import 'App.scss';
+@import 'Nav.scss';

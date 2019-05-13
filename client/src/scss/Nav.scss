@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: $dark;
+    width: 100%;
+    padding: 15px;
+    .nav-logo {
+        color: $white;
+    }
+    .nav-social-links {
+        ul {
+            display: flex;
+            li {
+                margin: 0 0 0 10px;
+                font-size: 2rem;
+                .icon-weedmaps {
+                    font-size: 2.2rem;
+                }
+            }
+        }
+    }
+}
+
+.navbar {
+    color: $white;
+    background-color: $primary;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    ul {
+        display: flex;
+        justify-content: center;
+        li {
+            margin: 0 15px;
+            font-size: 1.4rem;
+        }
+    }
+}
