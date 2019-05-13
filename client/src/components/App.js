@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Nav from './Nav_Footer/Nav.jsx';
-import Home from './Home.jsx';
+import Home from './Home/Home.jsx';
+import Menu from './Menu.jsx';
 
 
 
@@ -16,9 +17,7 @@ class App extends Component {
       <>
         <BrowserRouter>
           <section className="App">
-            
             <Nav />
-
 
             <Route
               exact 
@@ -27,6 +26,15 @@ class App extends Component {
                 <Home />
               )}
             />
+
+            <Route
+              path='/menu'
+              render={() => (
+                <Menu />
+              )}
+            />
+
+
 
           </section>
         </BrowserRouter>
